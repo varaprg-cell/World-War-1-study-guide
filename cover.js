@@ -10,7 +10,7 @@
     site.hidden = false;
     document.title = 'World War I Study Guide – 9th Grade';
     const script = document.createElement('script');
-    script.src = 'app.js';
+    script.src = 'app.js?v=20261108-2';
     document.body.append(script);
   }
   document.getElementById('lock-site').addEventListener('click', () => {
